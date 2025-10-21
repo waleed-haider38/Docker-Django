@@ -1,2 +1,8 @@
-django
-psycopg[binary]
+asgiref==3.10.0 ; python_version >= "3.9" and python_version < "4.0"
+django==4.2.25 ; python_version >= "3.9" and python_version < "4.0"
+djangorestframework==3.16.1 ; python_version >= "3.9" and python_version < "4.0"
+psycopg-binary==3.2.11 ; python_version >= "3.9" and python_version < "4.0" and implementation_name != "pypy"
+psycopg==3.2.11 ; python_version >= "3.9" and python_version < "4.0"
+sqlparse==0.5.3 ; python_version >= "3.9" and python_version < "4.0"
+typing-extensions==4.15.0 ; python_version >= "3.9" and python_version < "3.13"
+tzdata==2025.2 ; python_version >= "3.9" and python_version < "4.0" and sys_platform == "win32"
