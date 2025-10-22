@@ -12,9 +12,6 @@ files = [
     {file = "asgiref-3.10.0.tar.gz", hash = "sha256:d89f2d8cd8b56dada7d52fa7dc8075baa08fb836560710d38c292a7a3f78c04e"},
 ]
 
-[package.dependencies]
-typing_extensions = {version = ">=4", markers = "python_version < \"3.11\""}
-
 [package.extras]
 tests = ["mypy (>=1.14.0)", "pytest", "pytest-asyncio"]
 
@@ -175,7 +172,7 @@ description = "Backported and Experimental Type Hints for Python 3.9+"
 optional = false
 python-versions = ">=3.9"
 groups = ["main"]
-markers = "python_version < \"3.13\""
+markers = "python_version == \"3.12\""
 files = [
     {file = "typing_extensions-4.15.0-py3-none-any.whl", hash = "sha256:f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548"},
     {file = "typing_extensions-4.15.0.tar.gz", hash = "sha256:0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466"},
@@ -196,5 +193,5 @@ files = [
 
 [metadata]
 lock-version = "2.1"
-python-versions = "^3.9"
-content-hash = "86821f255d62bc0d04aa678bfe39435dca328143f9126dd90787710aaa76b066"
+python-versions = "^3.12"
+content-hash = "879548010ca56c537f922fca379637f0d5e0387d23da4576baef0b83832b4dbf"
